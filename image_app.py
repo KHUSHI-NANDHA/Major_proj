@@ -70,8 +70,8 @@ st.markdown(
         .stApp {
             background-color: #FAF6EF;
         }
-        #MainMenu, footer { visibility: hidden; }
-        .stAppDeployButton, [data-testid="stAppDeployButton"], .stDeployButton, [data-testid="stToolbarActions"] {
+        footer { visibility: hidden; }
+        .stAppDeployButton, [data-testid="stAppDeployButton"], .stDeployButton {
             display: none !important;
             visibility: hidden !important;
         }

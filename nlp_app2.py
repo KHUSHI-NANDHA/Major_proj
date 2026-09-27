@@ -81,8 +81,8 @@ st.markdown("""
 
 html, body, [class*="css"] { font-family: 'DM Sans', sans-serif; color: #1a1a2e; }
 .stApp { background-color: #f8f7f4; color: #1a1a2e; }
-#MainMenu, footer { visibility: hidden; }
-.stAppDeployButton, [data-testid="stAppDeployButton"], .stDeployButton, [data-testid="stToolbarActions"] {
+footer { visibility: hidden; }
+.stAppDeployButton, [data-testid="stAppDeployButton"], .stDeployButton {
     display: none !important;
     visibility: hidden !important;
 }
